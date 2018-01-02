@@ -1,0 +1,8 @@
+{
+  "name": "dokudenpa-client",
+  "version": "0.0.1",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "xterm": "^2.9.2"
+  }
+}
