@@ -6,6 +6,6 @@ jobs:
     steps:
       - checkout
       - run: |
-          npm install -g parcel
+          npm install -g parcel-bundler
           npm install
           parcel build
