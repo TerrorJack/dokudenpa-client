@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:9-stretch
+    steps:
+      - checkout
+      - run: |
+          npm install -g parcel
+          npm install
+          parcel build
