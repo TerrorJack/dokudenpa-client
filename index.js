@@ -25,5 +25,5 @@
     const f = term.writeWithInterval(128);
     await f(chalk.green("HELLO"));
     await f(" WORLD");
-    console.log(await fire("term.writeWithInterval(128)('\\nAND YOU.');"));
+    await fire("term.writeWithInterval(128)('\\nAND YOU.');");
 })();

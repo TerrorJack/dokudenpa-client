@@ -2,10 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:9-stretch
+      - image: terrorjack/vanilla:nodejs
     steps:
       - checkout
       - run: |
-          sudo npm install -g parcel-bundler
           npm install
           parcel build index.html --public-url ./
